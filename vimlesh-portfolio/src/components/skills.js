@@ -1,6 +1,4 @@
-import React from "react";
-
-const skills = ["React", "JavaScript", "HTML", "CSS", "Git"];
+const skills = ["React", "JavaScript", "Typescript", "HTML", "CSS","TailwindCSS","bitBucket",, "Git"];
 
 export default function Skills() {
   return (
