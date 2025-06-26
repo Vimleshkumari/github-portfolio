@@ -1,8 +1,8 @@
 import React from "react";
 
 const projects = [
-    { name: "Weather App", link: "https://github.com/your-username/weather-app" },
-    { name: "To-Do List", link: "https://github.com/your-username/todo-list" },
+    { name: "Accordion", link: "https://github.com/Vimleshkumari/Accordian/blob/main/accordian" },
+    { name: "To-Do List", link: "https://github.com/Vimleshkumari/DialyToDoList/tree/main/todolist" },
 ];
 
 export default function Projects() {

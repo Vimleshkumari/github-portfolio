@@ -4,28 +4,19 @@ import { FaGithub } from "react-icons/fa";
 
 export default function About() {
   return (
-    <section className="my-8 flex justify-center items-center flex-col">
-      {/* <h2 className="text-2xl font-semibold mb-2">About Me</h2> */}
-      <div className="z-10 max-w-screen-lg px-4 lg:px-0 ">
+    <section className="my-8flex-col ">
+      <h2 className="text-2xl font-semibold mb-2">Summary</h2>
+      <div className="text-xl text-white sm:text-m lg:text-xl">
+        Developer with experience in creating and enhancing user interfaces using React.js and modern JavaScript. Comfortable with state management through Redux and integrating APIs effectively. Able to translate design ideas into responsive and functional web applications. Familiar with frontend development tools and committed to writing clean, maintainable code.A collaborative team member focused on delivering user-friendly solutions
+      </div>
+      {/* <div>Experience working as software engineer in software design, analysis, development, and implementation of web and client server application using Reactjs. </div> */}
+      {/* <div className="z-10 max-w-screen-lg px-4 lg:px-0 ">
         <div
           className="flex flex-col items-center gap-y-6 rounded-xl bg-gray-800/40 p-6 text-center shadow-lg backdrop-blur-sm"
         >
-          <h1 className="text-4xl font-bold text-white sm:text-5xl lg:text-7xl">
-            I'm Vimlesh kumari
-          </h1>
-          <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-            I'm a Pune based
-            <strong className="text-stone-100"> Front-end Software Engineer</strong>,
-            currently working at
-            <strong className="text-stone-100"> Instant Domains</strong> helping build a
-            modern, mobile-first, domain registrar and site builder.
-          </p>
-          <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-            In my free time time, you can catch me training in
-            <strong className="text-stone-100"> Youtube</strong>, plucking my
-            <strong className="text-stone-100"> banjo</strong>, or exploring beautiful
-            <strong className="text-stone-100"> Mountains around me</strong>.
-          </p>
+          
+
+
           <div className="flex gap-x-4 text-neutral-100">
             <a
               aria-label="Github"
@@ -127,10 +118,6 @@ export default function About() {
             <h2 className="text-sm font-medium text-white mb-2">Contact</h2>
             <p>Email: <a href="mailto:vimlesh9512@gmail.com" className=" decoration-white">vimlesh9512@gmail.com</a></p>
             {/* <div><span>GitHub:</span> <span><FaGithub /></span><span><a href="https://github.com/Vimleshkumari" className="text-blue-500 decoration-black">@Vimleshkumari</a></span> </div> */}
-          </section>
-        </div>
-
-      </div><br />
     </section>
   );
 }
